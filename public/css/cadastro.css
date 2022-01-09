@@ -1,0 +1,14 @@
+body{
+    background-color: #dfdfdf;
+    text-align: center;
+    padding: 2em;
+}
+
+h1{
+    font-size: 100pt;
+    color:red;
+}
+
+label{
+    color:red;
+}

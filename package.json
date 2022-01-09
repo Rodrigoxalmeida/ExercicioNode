@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "name": "tarefa_express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js localhost 5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

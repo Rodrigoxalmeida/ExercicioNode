@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="/cadastro/save" method="post">
+
+        <div>
+            <label>Nome:</label>
+            <input type="text" name="name" placeholder="Digite o seu nome">
+        </div>
+        <div>
+            <br><label>Idade:</label>
+            <input type="text" name="age" placeholder="Digite a tua idade"><br>
+        </div>
+        <div>
+            <br><input type="submit" value="cadastrar"><br>
+        </div>
+        
+    </form>
+        <br><a href="http://localhost:5000/">voltar</a><br>
+</body>
+</html>
